@@ -13,4 +13,4 @@ def resize_images(folder_path, width, height):
       new_file_path = os.path.join(folder_path, new_file_name)
       image.save(new_file_path)
 
-resize_images('C:\\Users\\adminchi\\Desktop\\download_site', 456, 304) //указать путь и размеры
+resize_images('C:\\Users\\adminchi\\Desktop\\download_site', 456, 304) #указать путь и размеры
